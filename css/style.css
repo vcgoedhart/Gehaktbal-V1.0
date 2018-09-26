@@ -1,0 +1,97 @@
+body {
+
+	font-family: 'roboto', sans-serif;
+}
+
+h1 {
+
+	font-size: 36px;
+	line-height: 36px;
+}
+
+h2 {
+
+	font-size: 32px;
+	line-height: 32px;
+}
+
+p {
+
+	font-size: 20px;
+	line-height: 26px;
+}
+
+#navMenu {
+
+	list-style-type: none;
+
+	position: absolute;
+	top: 0.5%;
+	left: 41.5%;
+	padding: 0;
+
+	width: 35%;
+	
+	border-left: 0.5px dotted black;
+}
+
+.navButton li a {
+
+	display: block;
+	color: black;
+	float: left;
+
+	font-size: 25px;
+	padding: 10px;
+
+	text-decoration: none;
+	
+	border-right: 0.5px dotted black;
+}
+
+.navButton li a:hover {
+
+	font-weight: bold;
+}
+
+#main {
+
+	margin: 0 auto;
+	width: 60%;
+}
+
+#ingredient {
+
+	padding-bottom: 40px;
+}
+
+.ingredientList li {
+
+	margin-top: 10px;
+}
+
+#bereiding {
+
+	padding-bottom: 40px;
+}
+
+.bereidingList li {
+
+	margin-top: 20px;
+}
+
+#tipPanel {
+
+	background-color: #def6ed;
+	font-size: 18px;
+
+	padding: 5px 25px;
+	margin-top: 40px;
+	border-radius: 4px;
+
+}
+
+.tipTitle {
+
+	font-weight: bold;
+}
